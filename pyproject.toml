@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "game"
+version = "0.1.0"
+description = ""
+authors = ["HoweZae <jdtomanan@up.edu.ph>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+cs150241project-networking = {git = "https://github.com/UPD-CS150-241/cs150241project_networking"}
+pygame-ce = "^2.5.2"
+websockets = "^14.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
